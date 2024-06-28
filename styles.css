@@ -80,5 +80,61 @@ body {
 }
 
 .flag {
-    width: 48px
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.left-flag {
+    left: -40px; /* Ajuste la distancia a la mitad */
+}
+
+.right-flag {
+    right: -40px; /* Ajuste la distancia a la mitad */
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+th, td {
+    padding: 6px;
+    border-bottom: 1px solid #e1e8ed; /* División entre filas */
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-weight: bold;
+}
+
+td.last-bold {
+    font-weight: bold;
+    text-align: center; /* Centrar el texto */
+    
+}
+
+td {
+    background-color: #ffffff;
+    color: #000000;
+   
+}
+
+th:last-child, td:last-child {
+    text-align: right;
+}
+
+td:nth-child(2) {
+    text-align: center;
+    font-weight: bold;
 }

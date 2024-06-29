@@ -1,3 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .twitter-box {
     background-color: #ffffff;
     border: 1px solid #e1e8ed;
@@ -76,11 +86,11 @@
 }
 
 .left-flag {
-    left: -100px; /* Ajuste la distancia a la mitad */
+    left: -40px;
 }
 
 .right-flag {
-    right: -40px; /* Ajuste la distancia a la mitad */
+    right: -40px;
 }
 
 .score {
@@ -99,7 +109,7 @@ table {
 
 th, td {
     padding: 6px;
-    border-bottom: 1px solid #e1e8ed; /* División entre filas */
+    border-bottom: 1px solid #e1e8ed;
 }
 
 th {
@@ -110,14 +120,12 @@ th {
 
 td.last-bold {
     font-weight: bold;
-    text-align: center; /* Centrar el texto */
-    
+    text-align: center;
 }
 
 td {
     background-color: #ffffff;
     color: #000000;
-   
 }
 
 th:last-child, td:last-child {
